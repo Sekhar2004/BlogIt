@@ -9,6 +9,8 @@ import EditPost from './pages/EditPost'
 import Profile from './pages/Profile'
 import {  UserContextProvider } from './context/UserContext'
 import MyBlogs from './pages/MyBlogs'
+import './App.css';
+import ThemeProvider from './context/ThemeContext'
 
 
 
@@ -17,6 +19,7 @@ const App = () => {
 
   
   return (
+    // <ThemeProvider>
       <UserContextProvider>
       <Routes>
       <Route exact path="/" element={<Home/>}/>
@@ -30,6 +33,7 @@ const App = () => {
       </Routes>
     
       </UserContextProvider>
+      // </ThemeProvider>
   )
 }
 

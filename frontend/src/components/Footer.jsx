@@ -1,32 +1,25 @@
-
-
 const Footer = () => {
   return (
-    <>
-<div className="mt-8 w-full bg-black px-8 md:px-[300px] flex md:flex-row flex-col space-y-6 md:space-y-0 items-start md:justify-between text-sm md:text-md py-8 ">
-       <div className="flex flex-col text-white">
-         <p>Featured Blogs</p>
-         <p>Most viewed</p>
-         <p>Readers Choice</p>
-       </div>
+    <footer className="bg-gray-800 text-white py-6">
+      {/* <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+        <div className="mb-4 md:mb-0">
+          <h4 className="text-lg font-semibold">About Us</h4>
+          <p className="mt-2">Explore our insights and stories.</p>
+        </div>
 
-       <div className="flex flex-col text-white">
-         <p>Forum</p>
-         <p>Support</p>
-         <p>Recent Posts</p>
-       </div>
+        <div className="mb-4 md:mb-0">
+          <h4 className="text-lg font-semibold">Connect with Us</h4>
+          <p className="mt-2">Join our community on social media.</p>
+        </div>
 
-       <div className="flex flex-col text-white">
-         <p>Privacy Policy</p>
-         <p>About Us</p>
-         <p>Terms & Conditions</p>
-         <p>Terms of Service</p>
-       </div>
-    </div>
-    <p className="py-2 pb-6 text-center text-white bg-black text-sm">All rights reserved @Blog Market 2023</p>
-    </>
-    
-  )
-}
+        <div>
+          <h4 className="text-lg font-semibold">Get Involved</h4>
+          <p className="mt-2">Share your thoughts and feedback.</p>
+        </div>
+      </div> */}
+      {/* <p className="mt-4 text-center text-sm">© 2023 Blog Market. All rights reserved.</p> */}
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
