@@ -29,7 +29,7 @@ const connectDB=async()=>{
 dotenv.config()
 app.use(express.json())
 app.use("/images",express.static(path.join(__dirname,"/images")))
-app.use(cors({origin:"https://blog-it-nu.vercel.app",credentials:true}))
+app.use(cors({origin:"https://blog-it-2ut6-wblvdyetd-sekhar-reddys-projects.vercel.app/",credentials:true}))
 app.use(cookieParser())
 app.use("/api/auth",authRoute)
 app.use("/api/users",userRoute)
